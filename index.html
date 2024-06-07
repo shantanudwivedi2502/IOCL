@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="text" name="" id="inputvalue" placeholder="SEARCH" onkeyup="filterFunction()"/>
+    <br> 
+    <br>
+    <table border="1" cellspacing="0" id="myTable">
+        <tr>
+            <th colspan="8">ABHILEKH</th>
+
+        </tr>
+      
+        <tr>
+            
+            <th>LOCATION NAME</th>
+            <th>ROUTER IP</th>
+            <th>AIRTEL WAN IP</th>
+            <th>AIRTEL BANDWITH</th>
+            <th>AIRTEL STATUS</th>
+            <th>BSNL WAN IP</th>
+            <th>BSNL BANDWITH</th>
+            <th>BSNL STATUS</th>
+        </tr>
+        <tr>
+            
+            <td>KANPUR BP</td>
+            <td>10.38.65.1</td>
+            <td>172.35.191.62</td>
+            <td>6</td>
+            <td>UP</td>
+            <td>172.31.142.29</td>
+            <td>6</td>
+            <td>UP</td>
+        </tr>
+        <tr>
+            
+            <td>ALLAHABAD AFS</td>
+            <td>10.40.33.1</td>
+            <td>NO LINK </td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>172.31.142.5</td>
+            <td>4</td>
+            <td>UP</td>
+        </tr>
+        <tr>
+            
+            <td>ALLAHABAD BP</td>
+            <td>10.40.34.1</td>
+            <td>NO LINK</td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>172.31.142.1</td>
+            <td>10</td>
+            <td>UP</td>
+        </tr>
+        <tr>
+            
+            <td>ALLAHABAD DO</td>
+            <td>10.40.32.1</td>
+            <td>NO LINK</td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>172.31.141.249</td>
+            <td>10</td>
+            <td>UP</td>
+        </tr>
+        <tr>
+            
+            <td>AMBABAI DEPOT</td>
+            <td>10.38.96.1</td>
+            <td>NO LINK </td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>172.31.142.13</td>
+            <td>6</td>
+            <td>UP</td>
+        </tr>
+        <tr>
+            
+            <td>BAITALPUR DEPOT</td>
+            <td>10.40.128.1</td>
+            <td>NO LINK </td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>172.31.143.249</td>
+            <td>6</td>
+            <td>UP</td>
+        </tr>
+        <tr>
+            
+            <td>FURSATGANJ AFS</td>
+            <td>10.38.224.1</td>
+            <td>NO LINK </td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>172.31.143.237</td>
+            <td>4</td>
+            <td>UP</td>
+        </tr>
+        <tr>
+            
+            <td>GONDA DEPOT</td>
+            <td>10.38.128.1</td>
+            <td>NO LINK </td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>172.31.142.17</td>
+            <td>6</td>
+            <td>UP</td>
+        </tr>
+        <tr>
+            
+            <td>GORAKHPUR AFS</td>
+            <td>10.38.193.1</td>
+            <td>NO LINK </td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>172.31.142.25</td>
+            <td>2</td>
+            <td>UP</td>
+        </tr>
+        <tr>
+            
+            <td>GORAKHPUR BP</td>
+            <td>10.38.192.1</td>
+            <td>NO LINK </td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>172.31.174.69</td>
+            <td>6</td>
+            <td>UP</td>
+        </tr>
+        <tr>
+            
+            <td>KANPUR AFS</td>
+            <td>10.38.64.1</td>
+            <td>NO LINK </td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>172.31.174.113</td>
+            <td>4</td>
+            <td>UP</td>
+        </tr>
+        <tr>
+            
+            <td>KANPUR CFA</td>
+            <td>10.38.70.1</td>
+            <td>NO LINK </td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>172.31.143.241</td>
+            <td>4</td>
+            <td>UP</td>
+        </tr>
+        <tr>
+            
+            <td>KANPUR DO</td>
+            <td>10.38.72.1</td>
+            <td>NO LINK </td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>172.31.247.89</td>
+            <td>10</td>
+            <td>UP</td>
+        </tr>
+        <tr>
+            
+            <td>KANPUR MARKETING TERMINAL</td>
+            <td>10.38.66.1</td>
+            <td>NO LINK </td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>172.31.173.229</td>
+            <td>10</td>
+            <td>UP</td>
+        </tr>
+        <tr>
+            
+            <td>LUCKNOW AFS</td>
+            <td>10.38.44.1</td>
+            <td>NO LINK </td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>172.31.142.41</td>
+            <td>4</td>
+            <td>UP</td>
+        </tr>
+        <tr>
+            
+            <td>LUCKNOW BP(AMOUSI BP)</td>
+            <td>10.38.37.1</td>
+            <td>NO LINK </td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>172.31.175.101</td>
+            <td>6</td>
+            <td>UP</td>
+        </tr>
+        <tr>
+            
+            <td>LUCKNOW MARKETING TERMINAL(AMOUSI MARKETING TERMINAL)</td>
+            <td>10.38.38.1</td>
+            <td>NO LINK </td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>172.31.175.49</td>
+            <td>6</td>
+            <td>UP</td>
+        </tr>
+        <tr>
+            
+            <td>UTTAR PRADESH S0 1</td>
+            <td>10.38.32.1</td>
+            <td>NO LINK </td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>172.31.173.233</td>
+            <td>40</td>
+            <td>UP</td>
+        </tr>
+        <tr>
+            
+            <td>MUGHALSARAI MARKETING TERMINAL</td>
+            <td>10.40.64.1</td>
+            <td>NO LINK </td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>172.31.142.45</td>
+            <td>6</td>
+            <td>UP</td>
+        </tr>
+        <tr>
+            
+            <td>NEW LUCKNOW DO</td>
+            <td>10.38.39.1</td>
+            <td>NO LINK </td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>172.31.247.29</td>
+            <td>10</td>
+            <td>UP</td>
+        </tr>
+        <tr>
+            
+            <td>NEW-ALLAHABAD MARKETING TERMINAL</td>
+            <td>10.40.35.1</td>
+            <td>NO LINK </td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>172.31.175.197</td>
+            <td>6</td>
+            <td>UP</td>
+        </tr>
+        <tr>
+            
+            <td>TRISHUNDI BOTTLING PLANT</td>
+            <td>10.38.160.1</td>
+            <td>NO LINK </td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>172.31.141.41</td>
+            <td>6</td>
+            <td>UP</td>
+        </tr>
+        <tr>
+            
+            <td>VARANASI AFS</td>
+            <td>10.40.97.1</td>
+            <td>NO LINK </td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>172.31.142.53</td>
+            <td>4</td>
+            <td>UP</td>
+        </tr>
+        <tr>
+            
+            <td>VARANASI BP</td>
+            <td>10.40.96.1</td>
+            <td>NO LINK </td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>172.31.142.49</td>
+            <td>10</td>
+            <td>UP</td>
+        </tr>
+        <tr>
+            
+            <td>ALLAHABAD AFS CIVIL BASE </td>
+            <td>10.40.36.1</td>
+            <td>NO LINK </td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>172.31.174.149</td>
+            <td>4</td>
+            <td>UP</td>
+        </tr>
+        <tr>
+            
+            <td>VARNASAI INDANE DO</td>
+            <td>10.40.99.1</td>
+            <td>NO LINK </td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>172.31.174.189</td>
+            <td>6</td>
+            <td>UP</td>
+        </tr>
+        <tr>
+            
+            <td>NEW GORAKHPUR DO/IDO</td>
+            <td>10.38.197.1</td>
+            <td>NO LINK </td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>172.31.142.21</td>
+            <td>10</td>
+            <td>UP</td>
+        </tr>
+        <tr>
+            
+            <td>ALLAHABAD CFA</td>
+            <td>10.40.38.1</td>
+            <td>NO LINK </td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>NO LINK</td>
+            <td>NA</td>
+            <td>NA</td>
+        </tr>
+        <tr>
+            
+            <td>MIRZAPUR TERMINAL</td>
+            <td>10.40.100.1</td>
+            <td>NO LINK </td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>NO LINK</td>
+            <td>NA</td>
+            <td>NA</td>
+        </tr>
+        <tr>
+            
+            <td>GORAKHPUR CBG PLANT</td>
+            <td>10.38.196.1</td>
+            <td>NO LINK </td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>NO LINK</td>
+            <td>NA</td>
+            <td>NA</td>
+        </tr>
+
+    </table>
+    
+    <script src="index.js">
+    </script>
+</body>
+</html>
